@@ -1,0 +1,3 @@
+whitestone-bank/
+├── index.html         # login page
+└── dashboard.html     # bank dashboard after login
